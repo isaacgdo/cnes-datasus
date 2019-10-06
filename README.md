@@ -24,7 +24,7 @@ Essas são algumas configurações iniciais recomendadas para fazer deploy da ap
 - copie as configurações de exemplo para um arquivo .env
 `cp .env.example .env`
 
-- utilize o banco de exemplo `database/datasus.sqlite` ou crie um banco de dados do tipo sqlite e edite a variavel `DB_DATABASE` no arquivo `.env` referenciando o caminho absolute do banco criado.
+- utilize o banco de exemplo `datasus.sqlite` ou crie um banco de dados do tipo sqlite e edite a variavel `DB_DATABASE` no arquivo `.env` referenciando o caminho absolute do banco criado.
 
 - instale as dependências do composer (gerenciador de pacotes do php) executando o seguinte comando na raiz do projeto
 
