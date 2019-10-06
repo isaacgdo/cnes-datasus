@@ -46,10 +46,14 @@ return [
 
     //oauth
     'google' => [
-GOOGLE_CLIENT_ID=GOOGLE_CLIENT_SECRET=        'redirect' => env('GOOGLE_REDIRECT')
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+        'redirect' => env('GOOGLE_REDIRECT')
     ],
 
     'facebook' => [
-FACEBOOK_CLIENT_ID=FACEBOOK_CLIENT_SECRET=        'redirect'      => env('FACEBOOK_REDIRECT'),
+        'client_id'     => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect'      => env('FACEBOOK_REDIRECT'),
     ],
 ];
