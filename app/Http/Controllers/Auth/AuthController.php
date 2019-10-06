@@ -74,7 +74,7 @@ class AuthController extends Controller
         }
 
         return 'Token de Acesso. access_token = '.$token;
-
+        // TODO fix redirect
 //        return redirect()->route('professionals.list')
 //            ->withCookie(cookie('access_token', $token, 60*24*360, null, null, null, false, false, null));;
     }
