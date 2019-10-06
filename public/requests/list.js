@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('#professionals-list').DataTable();
-    $('#professionals-list_wrapper .row').css("padding", "0px 15px");
-    $('#professionals-list_wrapper .row').contents().eq(0).hide();
-    $('#professionals-list_wrapper .row').contents().eq(3).hide();
+    $('#professionals-list_wrapper .row').css("padding", "0px 15px")
+        .contents().eq(0).hide()
+        .contents().eq(3).hide();
     $('.dataTables_paginate').hide();
     $('.dataTables_empty').text('Carregando informações...');
     $('#professionals-list_filter').hide();

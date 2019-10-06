@@ -116,11 +116,6 @@ $(document).ready(function(){
     }
 });
 
-
-
-
-
-
 var form = $('#addoreditProfessionalForm');
 $(form).submit(function (e) {
     e.preventDefault();

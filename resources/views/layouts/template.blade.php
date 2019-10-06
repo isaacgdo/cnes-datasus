@@ -73,7 +73,7 @@
                 <nav class="navbar navbar-default navbar-fixed">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <p class="navbar-brand">Profissinais CNES</p>
+                            <p class="navbar-brand">Profissionais CNES</p>
                         </div>
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-left">
