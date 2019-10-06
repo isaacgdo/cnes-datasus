@@ -1,7 +1,7 @@
 # Sistema Datasus
 
 ### Descrição
-*O sistema consiste em uma aplicação capaz de obter e gerenciar informações sobre os profissionais cadastrados no CNES do HUOL - Hospital Universitário Onofre Lopes.*
+*O sistema consiste em uma aplicação capaz de obter e gerenciar informações sobre os profissionais cadastrados no CNES do HUOL - Hospital Universitário Onofre Lopes. [Telas da aplicação](docs/screens/README.md).*
 
 
 ### Configuração 
