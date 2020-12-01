@@ -27,9 +27,9 @@ class CreateProfessionalsTable extends Migration
             $table->softDeletes();
             $table->timestamps();
 
-            $table->foreign('cbo_id')->references('id')->on('cbos');
-            $table->foreign('bond_id')->references('id')->on('bonds');
-            $table->foreign('type_id')->references('id')->on('types');
+            //$table->foreign('cbo_id')->references('id')->on('cbos');
+            //$table->foreign('bond_id')->references('id')->on('bonds');
+            //$table->foreign('type_id')->references('id')->on('types');
 
         });
     }
