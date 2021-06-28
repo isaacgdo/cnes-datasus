@@ -61,7 +61,7 @@ class ScrapController extends Controller
             Professional::create([
                 'name' => $node->filter('td > font')->eq(0)->text(),
                 'cns' => $node->filter('td > font')->eq(2)->text(),
-                'assignment_date' => $node->filter('td > font')->eq(4)->text(),
+                'assignment_date' => date('Y-m-d'),
                 'workload' => $node->filter('td > font')->eq(9)->text(),
                 'sus' => $node->filter('td > font')->eq(10)->text(),
                 'origin' => 'datasus',
