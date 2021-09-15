@@ -23,6 +23,6 @@
         "vue": "^2.5.17"
     },
     "dependencies": {
-        "set-value": "^2.0.1"
+        "set-value": "^4.0.1"
     }
 }
